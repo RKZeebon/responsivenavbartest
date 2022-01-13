@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Peta:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marko+One&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ecf0f1;
+    
+}
+.navarea{
+    height: 85px;
+    background-color: #95a5a6;
+}
+.navbar{
+    max-width: 1200px;
+    height: 85px;
+    background-color: #95a5a6;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{  
+    margin-left: 20px;
+    margin-right: 50px;
+    font-family: 'Marko One', serif;
+    font-size: 2em;
+    white-space: nowrap;
+}
+
+.menu-btn{
+    display: flex;
+    align-items: center;
+    
+   
+}
+
+.menu ul{
+    margin-right: 50px;
+    display: flex;
+    list-style: none;
+}
+
+.menu ul li{
+    margin-right: 20px;
+    padding: 5px 20px;
+    border-radius: 5px;
+    
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.3em;
+    
+}
+#active, .menu ul li:hover{
+    background-color: #e8e8e8;
+    transition: .5s;
+    
+}
+
+.signup-btn{
+    margin-right: 20px;
+    padding: 8px 20px;
+    background-color:#95a5a6;
+    border: none;
+    border-radius: 5px;
+}
+
+.signup-btn a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+    font-family: 'Lexend Peta', sans-serif;
+}
+
+.signup-btn:hover{
+    background-color: #e8e8e8;
+    transition: .5s;
+}
+
+/*--------------------------
+       Header style end 
+--------------------------*/
+
+
+.container{
+    background-color:#e4e9ed ;
+    max-width: 1000px;
+    height: 100vh;
+    margin: 10px auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-Width: 688px) {
+    .logo{
+        font-size: 1.5em;
+        margin-right: 35px;
+    }
+
+    .menu ul{
+       display: block;
+       margin-right: 35px;
+    }
+
+    .menu ul li{
+        padding: 2px 20px;
+        font-size: 15px;
+    }
+    
+}
+
+
+@media only screen and (min-Width:688px) and (max-Width:992px) {
+
+    .menu ul{
+        margin-right: 35px;
+     }
+ 
+}
